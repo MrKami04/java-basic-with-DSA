@@ -193,5 +193,32 @@ public class Main {
     String result = a11.concat(b1).concat(c1);
     System.out.println(result);
 
+    // java math methods
+    int absValue = Math.abs(-10);
+    System.out.println("Absolute value: " + absValue);
+    int maxValue = Math.max(5, 19);
+    System.out.println("Maximum value: " + maxValue);
+    int minValue = Math.min(5, 19);
+    System.out.println("Minimum value: " + minValue);
+    double sqrtValue = Math.sqrt(64);
+    System.out.println("Square root: " + sqrtValue);
+    double powerValue = Math.pow(2, 3);
+    System.out.println("Power value: " + powerValue);
+    double roundValue = Math.round(5.67);
+    System.out.println("Rounded value: " + roundValue);
+    double ceilValue = Math.ceil(5.12);
+    System.out.println("Ceiling value: " + ceilValue);
+    double floorValue = Math.floor(5.89);
+    System.out.println("Floor value: " + floorValue);
+    int randomValue = (int) (Math.random() * 100);
+    System.out.println("Random value between 0 and 99: " + randomValue);
+
+    // boolean methods
+    String testStr = "Hello World";
+    System.out.println(testStr.isEmpty()); // Check if string is empty
+    System.out.println(testStr.startsWith("Hello")); // Check if string starts with substring
+    System.out.println(testStr.endsWith("World")); // Check if string ends with substring
+    System.out.println(testStr.contains("lo Wo")); // Check if string contains substring
+
   }
 }
